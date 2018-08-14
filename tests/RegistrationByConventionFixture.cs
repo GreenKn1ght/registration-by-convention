@@ -27,7 +27,7 @@ namespace Microsoft.Practices.Unity.Tests
             Assert.IsFalse(container.Registrations.Any(r => r.MappedToType == typeof(MockLogger)));
         }
 
-        [TestMethod]
+		[TestMethod]
         public void RegistersTypeWithLifetime()
         {
             var container = new UnityContainer();
